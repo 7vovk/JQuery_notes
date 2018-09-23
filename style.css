@@ -1,0 +1,48 @@
+#ta {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 10px 5px 5px;
+    overflow: auto;
+    box-shadow: 0 0 5px 0px #9a9a9a;
+}
+#btn {
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    box-shadow: 0 0 5px 0px #9a9a9a;
+    cursor: pointer;
+    display: block;
+    border: 0.5px solid #3851ca; 
+    border-radius: 50px;
+    background: linear-gradient(#effaff, #83b4ff, #00adff, #cff0ff);
+}
+.message{
+    width: 215px;
+    height: 200px;
+    border: 1px solid #0029b3;
+    box-sizing: border-box;
+    background: linear-gradient(335deg, #b6e5fb, #83b4ff, #00adff, #83cdef, #d3edfb);
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 0 5px 0px #000000;
+    margin: 5px;
+    display: inline-flex;
+}
+.message p {
+    width: 180px;
+}
+.close {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(325deg, #effaff, #83b4ff, #00adff, #cff0ff, #ffffff);
+    border: 0.5px solid #3851ca;
+    position: absolute;
+    right: 10px;
+    box-shadow: 0 0 3px 0px #8d8dff;
+    cursor: pointer;
+    font-size: 5px;
+    padding: 0;
+}
